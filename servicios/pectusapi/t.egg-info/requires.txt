@@ -1,0 +1,6 @@
+flask
+sqlalchemy
+flask-sqlalchemy
+nose
+marshmallow
+flask-cors
