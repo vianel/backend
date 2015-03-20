@@ -13,7 +13,7 @@ except ImportError:
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:123456@localhost:5433/pectus'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234@localhost:5433/pectus'
 cors = CORS(app, allow_headers='Content-Type')
 
 db = SQLAlchemy(app)
